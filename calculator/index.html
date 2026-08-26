@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <header>
+            <h1>Oasis Calculator</h1>
+            <p class="subtitle">Internship Assignment · Level 2</p>
+        </header>
+
+        <main>
+            <!-- Description -->
+            <div class="hero">
+                <p>
+                    Basic arithmetic &amp; chaining. Bonus: Square, Square Root, Sign Toggle (±), and a Base Converter (DEC → BIN / OCT / HEX).
+                </p>
+            </div>
+
+            <!-- Display -->
+            <div class="display">
+                <div class="expression" id="expression"></div>
+                <div class="result" id="result">0</div>
+            </div>
+
+            <!-- Row 1: Special functions (5 columns) -->
+            <div class="btn-set wide">
+                <button class="btn btn-danger" data-action="clear">C</button>
+                <button class="btn btn-function" data-action="backspace">⌫</button>
+                <button class="btn btn-function" data-action="sqrt">√</button>
+                <button class="btn btn-function" data-action="square">x²</button>
+                <button class="btn btn-function" data-action="base">BASE</button>
+            </div>
+
+            <!-- Row 2: 7 8 9 ÷ -->
+            <div class="btn-set">
+                <button class="btn btn-number" data-value="7">7</button>
+                <button class="btn btn-number" data-value="8">8</button>
+                <button class="btn btn-number" data-value="9">9</button>
+                <button class="btn btn-operator" data-value="÷">÷</button>
+            </div>
+
+            <!-- Row 3: 4 5 6 × -->
+            <div class="btn-set">
+                <button class="btn btn-number" data-value="4">4</button>
+                <button class="btn btn-number" data-value="5">5</button>
+                <button class="btn btn-number" data-value="6">6</button>
+                <button class="btn btn-operator" data-value="×">×</button>
+            </div>
+
+            <!-- Row 4: 1 2 3 − -->
+            <div class="btn-set">
+                <button class="btn btn-number" data-value="1">1</button>
+                <button class="btn btn-number" data-value="2">2</button>
+                <button class="btn btn-number" data-value="3">3</button>
+                <button class="btn btn-operator" data-value="−">−</button>
+            </div>
+
+            <!-- Row 5: 0  .  ±  =  +  (5 columns) -->
+            <div class="btn-set wide">
+                <button class="btn btn-number" data-value="0">0</button>
+                <button class="btn btn-number" data-value=".">.</button>
+                <button class="btn btn-function" data-action="toggleSign">±</button>
+                <button class="btn btn-equals" data-action="equals">=</button>
+                <button class="btn btn-operator" data-value="+">+</button>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Oasis Infobyte · Internship Project</p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
