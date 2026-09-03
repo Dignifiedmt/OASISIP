@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shahid Ahmad Ibrahim Zakzaky | A Tribute to His Life and Legacy</title>
-    <meta name="description" content="A dignified tribute to Shahid Ahmad Ibrahim Zakzaky (Fa'iz) — remembering his life of faith, knowledge, service, and sacrifice." />
+    <meta name="description" content="A dignified tribute to Shahid Ahmad Ibrahim Zakzaky — remembering his life of faith, knowledge, service, and sacrifice." />
     <meta property="og:title" content="Shahid Ahmad Ibrahim Zakzaky | A Tribute" />
     <meta property="og:description" content="Remembering a life of faith, knowledge, service, and sacrifice." />
     <meta property="og:type" content="website" />
@@ -44,7 +44,24 @@
                 <li role="none"><a href="#sources" role="menuitem" class="nav-link">Sources</a></li>
                 <li role="none" class="nav-theme-wrap">
                     <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark or light mode">
-                        <span class="theme-icon" aria-hidden="true">🌙</span>
+                        <span class="theme-icon" aria-hidden="true">
+                            <!-- Sun Icon (Light mode) -->
+                            <svg class="theme-svg sun" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"/>
+                                <line x1="12" y1="1" x2="12" y2="3"/>
+                                <line x1="12" y1="21" x2="12" y2="23"/>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line x1="1" y1="12" x2="3" y2="12"/>
+                                <line x1="21" y1="12" x2="23" y2="12"/>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                            </svg>
+                            <!-- Moon Icon (Dark mode) -->
+                            <svg class="theme-svg moon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                            </svg>
+                        </span>
                     </button>
                 </li>
             </ul>
@@ -78,20 +95,19 @@
 
                 <div class="hero-image-wrap">
                     <figure class="hero-figure">
-                        <img
-                        src="image/ahmad.jpg"
-                        alt="Shahid Ahmad Ibrahim Zakzaky"
-                        class="hero-portrait"
-                        loading="eager"
-                        />
-                        <figcaption class="hero-caption">Image source: Wikimedia Commons</figcaption>
+                        <img src="image/ahmad.jpg" alt="Shahid Ahmad Ibrahim Zakzaky" class="hero-portrait" loading="eager" />
+                        <figcaption class="hero-caption">A portrait of Ahmad — may his memory be cherished</figcaption>
                     </figure>
                 </div>
             </div>
 
             <div class="hero-scroll-indicator" aria-hidden="true">
                 <span class="scroll-text">Scroll</span>
-                <span class="scroll-arrow">↓</span>
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"/>
+                    </svg>
+                </span>
             </div>
         </section>
 
@@ -464,7 +480,13 @@
                                 a devoted son and brother, and a servant of his community.
                             </p>
                             <p class="martyrdom-caution">
-                                <span class="caution-icon">ⓘ</span>
+                                <span class="caution-icon" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <line x1="12" y1="16" x2="12" y2="12"/>
+                                        <line x1="12" y1="8" x2="12.01" y2="8"/>
+                                    </svg>
+                                </span>
                                 Accounts of the events of 25 July 2014 vary. The description
                                 above is based on biographical accounts from those who knew
                                 Ahmad and his family. For independent documentation, please
@@ -478,9 +500,17 @@
                         <p class="brothers-title">Remembered Together</p>
                         <div class="brothers-names">
                             <span class="brother-name">Ahmad</span>
-                            <span class="brother-sep">•</span>
+                            <span class="brother-sep">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6">
+                                    <circle cx="3" cy="3" r="3" fill="currentColor"/>
+                                </svg>
+                            </span>
                             <span class="brother-name">Hamid</span>
-                            <span class="brother-sep">•</span>
+                            <span class="brother-sep">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6">
+                                    <circle cx="3" cy="3" r="3" fill="currentColor"/>
+                                </svg>
+                            </span>
                             <span class="brother-name">Mahmud</span>
                         </div>
                         <p class="brothers-sub">Sons, brothers, students, servants of their community</p>
@@ -639,7 +669,7 @@
             </div>
         </section>
 
-        <!-- Gallery -->
+        <!-- Gallery Slider -->
         <section id="gallery" class="gallery-section" aria-labelledby="gallery-title">
             <div class="container">
                 <div class="section-header">
@@ -648,47 +678,51 @@
                     <div class="section-divider"></div>
                 </div>
 
-                <div class="gallery-grid">
-                    <figure class="gallery-item">
-                        <img
-                        src="image/ahmad1.jpg"
-                        alt="Historical photograph from Zaria, Nigeria"
-                        loading="lazy"
-                        />
-                        <figcaption>Zaria, Nigeria — community setting · <span class="credit">Image: Public domain</span></figcaption>
-                    </figure>
+                <div class="gallery-slider-wrapper">
+                    <div class="gallery-slider" id="gallerySlider">
+                        <div class="gallery-slide">
+                            <img src="image/ahmad1.jpg" alt="Ahmad Zakzaky in Zaria" loading="lazy" />
+                            <div class="gallery-slide-caption">
+                                Zaria, Nigeria — a place close to his heart
+                                <span class="credit">· Public domain</span>
+                            </div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="image/ahmad2.jpg" alt="Ahmad Zakzaky during his university years" loading="lazy" />
+                            <div class="gallery-slide-caption">
+                                His university years — pursuing knowledge with dedication
+                                <span class="credit">· Public domain</span>
+                            </div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="image/ahmad3.jpg" alt="Community gathering with Ahmad Zakzaky" loading="lazy" />
+                            <div class="gallery-slide-caption">
+                                Community and educational settings — where he served
+                                <span class="credit">· Public domain</span>
+                            </div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="image/ahmad.jpg" alt="A portrait of Ahmad Zakzaky" loading="lazy" />
+                            <div class="gallery-slide-caption">
+                                In remembrance — a life of faith and service
+                                <span class="credit">· Public domain</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <figure class="gallery-item">
-                        <img
-                        src="image/ahmad2.jpg"
-                        alt="Portrait representation of Ahmad Zakzaky's university years"
-                        loading="lazy"
-                        />
-                        <figcaption>Portrait representation · <span class="credit">Image: Public domain</span></figcaption>
-                    </figure>
+                    <button class="gallery-btn gallery-btn-prev" id="galleryPrev" aria-label="Previous slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"/>
+                        </svg>
+                    </button>
+                    <button class="gallery-btn gallery-btn-next" id="galleryNext" aria-label="Next slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 6 15 12 9 18"/>
+                        </svg>
+                    </button>
 
-                    <figure class="gallery-item">
-                        <img
-                        src="image/ahmad3.jpg"
-                        alt="Community gathering or educational setting"
-                        loading="lazy"
-                        />
-                        <figcaption>Community and educational setting · <span class="credit">Image: Public domain</span></figcaption>
-                    </figure>
-
-                    <figure class="gallery-item">
-                        <img
-                        src="image/ahmad.jpg"
-                        alt="Respectful memorial image"
-                        loading="lazy"
-                        />
-                        <figcaption>In remembrance · <span class="credit">Image: Public domain</span></figcaption>
-                    </figure>
+                    <div class="gallery-dots" id="galleryDots"></div>
                 </div>
-
-                <p class="gallery-note">
-                    These images are placeholders. Please replace them with verified, legally usable photographs from reliable sources such as Wikimedia Commons.
-                </p>
             </div>
         </section>
 
@@ -711,7 +745,13 @@
                         </p>
                         <a href="#" target="_blank" rel="noopener noreferrer" class="source-link">
                             Read Source
-                            <span class="external-icon" aria-hidden="true">↗</span>
+                            <span class="external-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </span>
                         </a>
                     </article>
 
@@ -725,7 +765,13 @@
                         </p>
                         <a href="#" target="_blank" rel="noopener noreferrer" class="source-link">
                             Read Source
-                            <span class="external-icon" aria-hidden="true">↗</span>
+                            <span class="external-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </span>
                         </a>
                     </article>
 
@@ -738,7 +784,13 @@
                         </p>
                         <a href="https://www.amnesty.org/en/location/africa/west-and-central-africa/nigeria/" target="_blank" rel="noopener noreferrer" class="source-link">
                             Amnesty International
-                            <span class="external-icon" aria-hidden="true">↗</span>
+                            <span class="external-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </span>
                         </a>
                     </article>
 
@@ -751,7 +803,13 @@
                         </p>
                         <a href="https://www.premiumtimesng.com/" target="_blank" rel="noopener noreferrer" class="source-link">
                             Premium Times
-                            <span class="external-icon" aria-hidden="true">↗</span>
+                            <span class="external-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </span>
                         </a>
                     </article>
 
@@ -764,7 +822,13 @@
                         </p>
                         <a href="https://commons.wikimedia.org/wiki/Category:Ibrahim_Zakzaky" target="_blank" rel="noopener noreferrer" class="source-link">
                             View Image Sources
-                            <span class="external-icon" aria-hidden="true">↗</span>
+                            <span class="external-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </span>
                         </a>
                     </article>
 
@@ -777,7 +841,13 @@
                         </p>
                         <a href="https://www.britannica.com/place/Nigeria" target="_blank" rel="noopener noreferrer" class="source-link">
                             Encyclopaedia Britannica
-                            <span class="external-icon" aria-hidden="true">↗</span>
+                            <span class="external-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                                    <polyline points="15 3 21 3 21 9"/>
+                                    <line x1="10" y1="14" x2="21" y2="3"/>
+                                </svg>
+                            </span>
                         </a>
                     </article>
                 </div>
@@ -810,7 +880,11 @@
 
     <!-- Back to Top -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <span aria-hidden="true">↑</span>
+        <span aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="18 15 12 9 6 15"/>
+            </svg>
+        </span>
     </button>
 
     <script src="script.js"></script>
