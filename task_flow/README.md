@@ -1,6 +1,6 @@
-# React + Vite
+# TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+TaskFlow is a responsive React task manager for adding, editing, completing, and deleting tasks. Tasks are saved in the browser with `localStorage`.
 
 Currently, two official plugins are available:
 
